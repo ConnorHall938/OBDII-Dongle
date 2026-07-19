@@ -211,7 +211,7 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
+        0.16,
         0.2
       ],
       "tuning_pattern_settings": {
@@ -539,7 +539,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Output/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -663,7 +663,7 @@
         "uuid": "fd171311-ffb8-4531-964d-985867cb6708"
       }
     ],
-    "used_designators": "P1,J1-4,L1,D1-2,C1-4,R1-16,#PWR1-18,Q1-2,U1-7",
+    "used_designators": "P1,J1-5,L1,D1-2,C1-4,R1-16,#PWR1-18,Q1-2,U1-7",
     "variants": []
   },
   "sheets": [
