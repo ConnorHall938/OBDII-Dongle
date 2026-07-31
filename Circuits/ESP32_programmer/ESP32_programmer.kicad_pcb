@@ -168,7 +168,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 0 15.47 90)
+			(at -2.35 5.85 180)
 			(layer "F.Fab")
 			(uuid "fe0f5757-8712-4d51-bea0-1385044da854")
 			(effects
@@ -472,6 +472,7 @@
 		(property "Value" "500"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fd4b631c-1cc3-4fae-87f3-bff0e089ec42")
 			(effects
 				(font
@@ -1391,7 +1392,7 @@
 		)
 		(property "Value" "4.7uF"
 			(at 0 1.68 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "36c61dcb-de35-4e07-b88d-8c41d4a9032d")
 			(effects
 				(font
@@ -1547,9 +1548,9 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 0 1.83 90)
-			(layer "F.Fab")
+		(property "Value" "TX"
+			(at -3.125601 0.44965 180)
+			(layer "F.SilkS")
 			(uuid "548eaecb-aca6-41d1-8964-b75dcb4b7cc1")
 			(effects
 				(font
@@ -1757,9 +1758,9 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 0 1.83 90)
-			(layer "F.Fab")
+		(property "Value" "RX"
+			(at -3.243232 0.014236 180)
+			(layer "F.SilkS")
 			(uuid "157c1206-4c46-40d5-b0d4-65a3e7a0686d")
 			(effects
 				(font
@@ -1957,7 +1958,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 -1.68 0)
+			(at -0.15 1.85 0)
 			(layer "F.SilkS")
 			(uuid "f526c874-2440-4f76-b5a9-49d828992676")
 			(effects
@@ -1968,8 +1969,8 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at -0.163569 3.14284 0)
+			(layer "F.SilkS")
 			(uuid "bcfc86aa-5e73-4a39-b381-010982291b61")
 			(effects
 				(font
@@ -2126,8 +2127,8 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
-			(layer "F.Fab")
+			(at -3.1 -0.1 0)
+			(layer "F.SilkS")
 			(uuid "dca92bee-3a52-418b-b741-5df929360aeb")
 			(effects
 				(font
@@ -2284,8 +2285,8 @@
 			)
 		)
 		(property "Value" "500"
-			(at 0 1.43 90)
-			(layer "F.Fab")
+			(at -2.49012 -0.901948 180)
+			(layer "F.SilkS")
 			(uuid "af7fe21d-fdf5-42c9-9d63-89d59335bad2")
 			(effects
 				(font
@@ -2443,7 +2444,7 @@
 		)
 		(property "Value" "4.7uF"
 			(at 0 1.68 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "360ec896-b2d2-433a-8737-5b2a2fa2702a")
 			(effects
 				(font
@@ -2600,8 +2601,8 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at -3.997724 0.069855 0)
+			(layer "F.SilkS")
 			(uuid "958c3d4d-1d39-4896-bebc-30228de5e743")
 			(effects
 				(font
@@ -2758,8 +2759,8 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
-			(layer "F.Fab")
+			(at -2.85 0 0)
+			(layer "F.SilkS")
 			(uuid "3ce56274-9e14-4fd0-9f60-f66e150aec8b")
 			(effects
 				(font
@@ -2916,7 +2917,7 @@
 			)
 		)
 		(property "Value" "MMDT3904"
-			(at 0 1.8 0)
+			(at 4.5 0.065 0)
 			(layer "F.Fab")
 			(uuid "4e1db9e5-4dda-4c79-8856-00caf3cdb541")
 			(effects
@@ -3973,7 +3974,7 @@
 		)
 		(property "Value" "5.1k"
 			(at 0 -1.43 90)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "540a0029-272c-4aa7-9e1d-287869ad8394")
 			(effects
 				(font
@@ -4137,7 +4138,7 @@
 		)
 		(property "Value" "1k"
 			(at 0 -1.43 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "e9ef9f4a-3436-44ec-a28d-28064110e68e")
 			(effects
 				(font
@@ -4301,7 +4302,7 @@
 		)
 		(property "Value" "5.1k"
 			(at 0 -1.43 90)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "550c5cd5-e502-4ca8-b10d-a1131f8f45d0")
 			(effects
 				(font
@@ -5564,6 +5565,14 @@
 		(uuid "5c1b17d2-bfa0-4d9e-bb65-b529b3307137")
 	)
 	(segment
+		(start 51.3 42.95)
+		(end 50.3 41.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "5d249e59-8d82-4982-85d4-7e2e5ea23464")
+	)
+	(segment
 		(start 65.3875 42.85)
 		(end 65.3875 41.0875)
 		(width 0.2)
@@ -5604,6 +5613,14 @@
 		(uuid "afae4ee5-5a50-4080-bbfd-4d880b0227ef")
 	)
 	(segment
+		(start 51.3 41.95)
+		(end 51.3 42.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "b5664366-b656-415a-aeac-ad46f7ca23ae")
+	)
+	(segment
 		(start 65.3875 45.86)
 		(end 65.3875 42.85)
 		(width 0.2)
@@ -5634,6 +5651,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "e20be264-fcf7-44c8-b1fc-32fbeaee5fe4")
+	)
+	(segment
+		(start 50.3 42.95)
+		(end 51.3 41.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "fb4a85ff-cab2-4bf4-b389-4339a7981ed4")
 	)
 	(via
 		(at 56.6 41)
