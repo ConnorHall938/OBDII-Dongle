@@ -1,0 +1,24 @@
+/*
+ * Copyright (c) 2021 Nordic Semiconductor ASA
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/* This devicetree overlay file will be automatically picked by the Zephyr
+ * build system when building the sample for the esp32s3_devkitc board. The
+ * board does not define any LED, so one is described here for the LED API.
+ */
+
+/ {
+	leds {
+		compatible = "gpio-leds";
+
+		led0: led_0 {
+			gpios = <&gpio0 1 GPIO_ACTIVE_HIGH>;
+			label = "Blink LED";
+		};
+	};
+
+	aliases {
+		led0 = &led0;
+	};
+};

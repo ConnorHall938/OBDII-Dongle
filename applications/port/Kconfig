@@ -1,0 +1,43 @@
+# Copyright (c) 2021 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+#
+# This file is the application Kconfig entry point. All application Kconfig
+# options can be defined here or included via other application Kconfig files.
+# You can browse these options using the west targets menuconfig (terminal) or
+# guiconfig (GUI).
+
+menu "Zephyr"
+source "Kconfig.zephyr"
+endmenu
+
+module = APP
+module-str = APP
+source "subsys/logging/Kconfig.template.log_config"
+
+config APP_BT_CORE_INIT_PRIORITY
+    int "Init priority of bluetooth core system"
+    default 10
+
+config APP_BT_FINAL_INIT_PRIORITY
+    int "Final bluetooth step - Starts advertising and accepting connections"
+    default 90
+
+config APP_BT_NUS_INIT_PRIORITY
+    int "Init priority of bluetooth NUS system"
+    default 11
+
+config APP_BT_OBD_INIT_PRIORITY
+    int "Init priority of bluetooth OBD system"
+    default 12
+
+config APP_CAN_INIT_PRIORITY
+    int "Init priority of CAN system"
+    default 10
+
+config APP_OBD_INIT_PRIORITY
+    int "Init priority of OBD system"
+    default 11
+
+config APP_DATABASE_INIT_PRIORITY
+    int "Init priority of database system"
+    default 10
